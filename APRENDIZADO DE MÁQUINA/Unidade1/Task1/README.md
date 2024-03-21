@@ -41,9 +41,9 @@ As principais diferenças entre a pesquisa em aprendizado de máquina (ML) e a i
       - Aprendizado de máquina versus software tradicional:
   Apesar de ML ser parte da engenharia de software (SWE) e de o desenvolvimento de software tradicional ter sido usado com sucesso em produção por mais de meio século, ainda existem desafios únicos para aplicativos de ML que exigem ferramentas próprias.
 
-Enquanto na SWE existe uma separação clara entre código e dados, nos sistemas de ML isso não é tão simples. Os sistemas de ML são compostos tanto por código quanto por dados, e frequentemente incluem artefatos criados a partir desses dois elementos. A tendência dos últimos anos tem mostrado que as aplicações desenvolvidas com os melhores dados tendem a ser mais bem-sucedidas. Isso significa que, em vez de focar apenas na melhoria dos algoritmos de ML, a maioria das empresas precisa se concentrar em melhorar seus conjuntos de dados, que podem mudar rapidamente.
+  Enquanto na SWE existe uma separação clara entre código e dados, nos sistemas de ML isso não é tão simples. Os sistemas de ML são compostos tanto por código quanto por dados, e frequentemente incluem artefatos criados a partir desses dois elementos. A tendência dos últimos anos tem mostrado que as aplicações desenvolvidas com os melhores dados tendem a ser mais bem-sucedidas. Isso significa que, em vez de focar apenas na melhoria dos algoritmos de ML, a maioria das empresas precisa se concentrar em melhorar seus conjuntos de dados, que podem mudar rapidamente.
 
-Outro desafio é o tamanho dos modelos de ML, que pode ser enorme. Atualmente, é comum que esses modelos tenham centenas de milhões, se não bilhões, de parâmetros, o que exige uma grande quantidade de memória RAM para carregá-los. Isso representa um desafio significativo para colocar esses modelos em produção, especialmente em dispositivos com recursos limitados.
+  Outro desafio é o tamanho dos modelos de ML, que pode ser enorme. Atualmente, é comum que esses modelos tenham centenas de milhões, se não bilhões, de parâmetros, o que exige uma grande quantidade de memória RAM para carregá-los. Isso representa um desafio significativo para colocar esses modelos em produção, especialmente em dispositivos com recursos limitados.
        
       
     
