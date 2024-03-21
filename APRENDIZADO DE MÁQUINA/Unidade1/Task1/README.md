@@ -23,4 +23,27 @@ Nesse topíco do capitulo 1 é abordado diferentes aspectos que devem ser consid
   ML é mais apropriado quando o problema é em grande escala, envolvendo um grande volume de dados ou muitas previsões. Isso inclui problemas como classificação de grandes volumes de e-mails ou previsão de resultados em uma escala massiva.
      - Padrões em Constante Mudança:
   ML é útil para problemas onde os padrões estão constantemente mudando, pois os modelos podem ser atualizados com novos dados sem a necessidade de reescrever regras manualmente. Isso é particularmente importante em ambientes dinâmicos, onde as regras fixas podem se tornar rapidamente obsoletas.
+
+  - Compreendendo os sistemas de aprendizado de máquina:
+Nesta seção, é analisado como os sistemas de aprendizado de máquina são diferentes tanto da pesquisa em aprendizado de máquina (ou como frequentemente ensinado na escola) quanto do software tradicional, e como entender isso será útil no processo de projetar e desenvolver os sistemas de aprendizado de máquina
+     - Aprendizado de máquina em pesquisa versus produção:
+As principais diferenças entre a pesquisa em aprendizado de máquina (ML) e a implementação de sistemas de ML em produção na indústria é que enquanto muitas pessoas com experiência em ML adquiriram seu conhecimento por meio da acadêmico, há desafios específicos ao levar os sistemas de ML para a produção em larga escala. Algumas das diferenças-chave entre ML na pesquisa e ML na produção incluem:
+        - Requisitos:
+  Na pesquisa, o foco costuma ser o desempenho do modelo, visando obter resultados de ponta em conjuntos de dados de referência. Na produção, diferentes partes interessadas têm diferentes requisitos, como desempenho do modelo, latência, entre outros.
+        - Prioridade Computacional:
+  Enquanto na pesquisa a prioridade está no treinamento rápido do modelo e alto rendimento computacional, na produção é essencial ter inferência rápida e baixa latência.
+        - Dados:
+  Na pesquisa, os conjuntos de dados são geralmente limpos e bem formatados, enquanto na produção os dados podem ser ruidosos, desestruturados e em constante mudança.
+        - Justiça (Fairness):
+  A justiça nem sempre é uma prioridade na pesquisa, mas é crucial na produção para evitar viés nos modelos que podem resultar em discriminação.
+        - Interpretabilidade:
+  Enquanto na pesquisa o foco geralmente é no desempenho do modelo, na produção a interpretabilidade é essencial para que os usuários entendam como as decisões são tomadas e para facilitar a depuração e melhoria do modelo.
+      - Aprendizado de máquina versus software tradicional:
+  Apesar de ML ser parte da engenharia de software (SWE) e de o desenvolvimento de software tradicional ter sido usado com sucesso em produção por mais de meio século, ainda existem desafios únicos para aplicativos de ML que exigem ferramentas próprias.
+
+Enquanto na SWE existe uma separação clara entre código e dados, nos sistemas de ML isso não é tão simples. Os sistemas de ML são compostos tanto por código quanto por dados, e frequentemente incluem artefatos criados a partir desses dois elementos. A tendência dos últimos anos tem mostrado que as aplicações desenvolvidas com os melhores dados tendem a ser mais bem-sucedidas. Isso significa que, em vez de focar apenas na melhoria dos algoritmos de ML, a maioria das empresas precisa se concentrar em melhorar seus conjuntos de dados, que podem mudar rapidamente.
+
+Outro desafio é o tamanho dos modelos de ML, que pode ser enorme. Atualmente, é comum que esses modelos tenham centenas de milhões, se não bilhões, de parâmetros, o que exige uma grande quantidade de memória RAM para carregá-los. Isso representa um desafio significativo para colocar esses modelos em produção, especialmente em dispositivos com recursos limitados.
+       
+      
     
