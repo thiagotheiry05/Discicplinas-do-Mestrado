@@ -2,7 +2,8 @@
 
 ## Capítulo 1
 
-- O capítulo 1 trás informações iniciais sobre o ML (Machine Leaning), abordando aspectos gerais sobre como utiliza-lá, quando se deve utilizar e aprofundando mais os conhecimentos sobre sistemas de ML
+- O capítulo 1 trás informações iniciais sobre o ML (Machine Leaning), abordando aspectos gerais sobre como utiliza-lá, quando se deve utilizar e aprofundando mais os conhecimentos sobre sistemas de ML.
+  
   - Quando devemos usar o ML:
 Nesse topíco do capitulo 1 é abordado diferentes aspectos que devem ser considerados antes de iniciar um projeto de ML, destacando que o ML não é uma solução mágica que pode resolver todos os problemas e que nem sempre é a solução ótima. A discussão é estruturada em torno de seis considerações principais:
      - Capacidade de Aprendizado:
@@ -40,6 +41,29 @@ As principais diferenças entre a pesquisa em aprendizado de máquina (ML) e a i
   Enquanto na pesquisa o foco geralmente é no desempenho do modelo, na produção a interpretabilidade é essencial para que os usuários entendam como as decisões são tomadas e para facilitar a depuração e melhoria do modelo.
       - Aprendizado de máquina versus software tradicional:
   Apesar de ML ser parte da engenharia de software (SWE) e de o desenvolvimento de software tradicional ter sido usado com sucesso em produção por mais de meio século, ainda existem desafios únicos para aplicativos de ML que exigem ferramentas próprias. Enquanto na SWE existe uma separação clara entre código e dados, nos sistemas de ML isso não é tão simples. Os sistemas de ML são compostos tanto por código quanto por dados, e frequentemente incluem artefatos criados a partir desses dois elementos. A tendência dos últimos anos tem mostrado que as aplicações desenvolvidas com os melhores dados tendem a ser mais bem-sucedidas. Isso significa que, em vez de focar apenas na melhoria dos algoritmos de ML, a maioria das empresas precisa se concentrar em melhorar seus conjuntos de dados, que podem mudar rapidamente. Outro desafio é o tamanho dos modelos de ML, que pode ser enorme. Atualmente, é comum que esses modelos tenham centenas de milhões, se não bilhões, de parâmetros, o que exige uma grande quantidade de memória RAM para carregá-los. Isso representa um desafio significativo para colocar esses modelos em produção, especialmente em dispositivos com recursos limitados.
+
+## Capítulo 2 
+
+- O capítulo 2 trás as motivações e o objetivo de se criar um ML, mostrando como estruturar seus problemas, tendo em vista que a dificuldade de seu trabalho pode mudar significativamente dependendo de como você irá estruturar seu problema.
+
+  - Objetivos de Negócios e de Aprendizado de Máquina:
+Para que um projeto de ML seja bem-sucedido em uma organização empresarial, é crucial alinhar o desempenho do sistema de ML ao desempenho geral do negócio. Isso significa identificar quais métricas de desempenho do negócio o novo sistema de ML deve influenciar. Além disso, é crucial manter expectativas realistas sobre os retornos esperados do investimento em ML. Embora o ML tenha o potencial de trazer benefícios significativos para as empresas, esses ganhos geralmente exigem investimento a longo prazo e maturidade na adoção da tecnologia. Empresas que investem consistentemente em ML ao longo do tempo tendem a colher os maiores benefícios.
+
+  - Requisitos para sistemas de ML:
+Os requisitos especificados para um sistema de ML variam de caso de uso para caso de uso. No entanto, a maioria dos sistemas deve ter essas quatro características: confiabilidade, escalabilidade, manutenibilidade e adaptabilidade.
+    - confiabilidade: O sistema deve continuar a executar a função correta no nível desejado de desempenho mesmo diante da adversidade (falhas de hardware ou software e até mesmo erros humanos).
+    - escalabilidade: Independentemente da forma como seu sistema cresce, deve haver maneiras razoáveis de lidar com esse crescimento.
+    - Capacidade de manutenção: É importante configurar sua infraestrutura de forma que diferentes colaboradores possam trabalhar usando ferramentas com as quais se sintam confortáveis, e quando um problema ocorre, diferentes colaboradores devem ser capazes de trabalhar juntos para identificar o problema e implementar uma solução.
+    - Adaptabilidade: Para se adaptar às mudanças nas distribuições de dados e nos requisitos comerciais, o sistema deve ter capacidade tanto para descobrir aspectos de melhoria de desempenho quanto para permitir atualizações sem interrupção do serviço.
+    - 
+  - Processo interativo:
+Desenvolver um sistema de ML é um processo iterativo e, na maioria dos casos, nunca termina. Uma vez que um sistema é colocado em produção, ele precisará ser continuamente monitorado e atualizado.
+
+  - Estruturando problemas de ML:
+Saber como o ML pode ser util e utilizado na demanda que foi pedido, a importância de estruturar corretamente os problema,nem todos os problemas são naturalmente problemas de ML e que é necessário identificar claramente as entradas, saídas e a função objetivo que guiará o processo de aprendizado.
+    - Tipos de tarefas de ML: 
+
+
        
       
     
