@@ -71,7 +71,20 @@ Saber como o ML pode ser util e utilizado na demanda que foi pedido, a importân
 
 ## Capítulo 3 
 
-- 
+- O capítulo 3 aborda o crescimento do aprendizado de máquina nos últimos anos está intimamente ligado ao aumento dos grandes dados, sistemas de dados em larga escala, mesmo sem ML, são complexos e podem ser difíceis de compreender para quem não tem experiência. Este capítulo trás os conceitos básicos de engenharia de dados, desde fontes e formatos de dados até modelos de dados e bancos de dados. Discute também a passagem de dados entre processos e serviços, bem como a distinção entre dados históricos e de streaming, as habilidades em coletar, processar, armazenar e recuperar grandes volumes de dados é crucial para quem deseja construir sistemas de ML em produção.
+  - Fonte de dados: Um sistema de ML pode trabalhar com dados de várias fontes diferentes. Esses dados têm características distintas, podem ser usados para diferentes propósitos e requerem diferentes métodos de processamento. Compreender as fontes de onde vêm seus dados pode ajudá-lo a usá-los de maneira mais eficiente.
+  - Formato de dados: escolher o formato de dados correto é essencial para garantir a eficiência e a escalabilidade do seu sistema de armazenamento de dados. É importante entender as características de cada formato e considerar as necessidades específicas da sua aplicação ao fazer essa escolha, esta secção destacou a diferença entre formatos de dados em texto e binários, enfatizando a eficiência e a economia de espaço proporcionadas pelos formatos binários. Embora os formatos de texto sejam legíveis e amplamente utilizados, os formatos binários são mais compactos e eficientes em termos de armazenamento, especialmente para conjuntos de dados grandes.
+  - modelos de dados: Os modelos de dados descrevem como os dados são representados. Esses modelos determinam não apenas como os sistemas são construídos, mas também os problemas que podem resolver.
+     - modelo relacional: O modelo relacional organiza os dados em relações, sendo que cada relação é um conjunto de tuplas. Tabelas são comumente usadas para representar relações, com cada linha sendo uma tupla.
+     - Dados Estruturados vs. Não Estruturados: Dados estruturados seguem um esquema pré-definido, facilitando a análise, mas se tornam restritivos se os esquemas mudarem frequentemente. Por outro lado, dados não estruturados não possuem um esquema pré-definido, oferecendo flexibilidade, mas exigindo esforços para extrair estrutura
+  - Mecanismos de Armazenamento de Dados e Processamento: Os mecanismos de armazenamento de dados e processamento são componentes fundamentais na infraestrutura de sistemas de informação e aplicativos. Eles fornecem a estrutura para armazenar e acessar dados de forma eficiente e também determinam como esses dados são processados para atender às necessidades de negócios.
+  - Modos de fluxo de dados: Os diferentes modos de fluxo de dados e métodos de processamento em sistemas de produção é um aspecto fundamental abordado, e a passagem de dados entre processos, que pode ocorrer de três maneiras principais: por meio de bancos de dados, serviços e transportes em tempo real são detalhados nessa secção, ao passar dados por bancos de dados, um processo escreve os dados em um banco de dados, e outro processo os lê posteriormente. No entanto, isso pode ser inviável se os processos forem executados por diferentes empresas ou se a latência for crítica. Por outro lado, a passagem de dados por serviços envolve o envio de requisições e respostas através de uma rede que conecta os processos. Essa abordagem é comum em arquiteturas orientadas a serviços, permitindo que diferentes componentes sejam desenvolvidos, testados e mantidos independentemente. Uma alternativa é a passagem de dados por transportes em tempo real, onde um intermediário coordena a comunicação entre os serviços. Isso reduz a complexidade e a dependência direta entre os serviços, facilitando a escalabilidade e a manutenção do sistema
+
+
+
+
+
+
 
 
        
