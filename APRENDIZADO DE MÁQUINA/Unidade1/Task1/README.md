@@ -61,7 +61,17 @@ Desenvolver um sistema de ML é um processo iterativo e, na maioria dos casos, n
 
   - Estruturando problemas de ML:
 Saber como o ML pode ser util e utilizado na demanda que foi pedido, a importância de estruturar corretamente os problema,nem todos os problemas são naturalmente problemas de ML e que é necessário identificar claramente as entradas, saídas e a função objetivo que guiará o processo de aprendizado.
-    - Tipos de tarefas de ML: 
+    - Tipos de tarefas de ML:
+      - Classificação versus regressão: Modelos de classificação classificam entradas em diferentes categorias, enquanto modelos de regressão produzem um valor contínuo.
+      - Classificação binária versus multiclasse: A classificação binária envolve apenas duas classes possíveis, enquanto a classificação multiclasse lida com mais de duas classes.
+      - Classificação multirrótulo versus multiclasse: Na classificação multirrótulo, um exemplo pode pertencer a múltiplas classes, enquanto na multiclasse cada exemplo pertence a apenas uma classe.
+      - Múltiplas maneiras de enquadrar um problema: Alterar a maneira como você enquadra um problema pode torná-lo significativamente mais fácil ou mais difícil.
+    - Funções objetivo: Para aprender, um modelo de aprendizado de máquina precisa de uma função objetivo para guiar o processo de aprendizado. Também chamada de função de perda, a função objetivo tem o objetivo de minimizar (ou otimizar) a perda causada por previsões incorretas. Em aprendizado supervisionado, essa perda pode ser calculada comparando as saídas do modelo com as etiquetas verdadeiras.
+  - Mente versus dados: O progresso na última década mostra que o sucesso de um sistema de ML depende em grande parte dos dados nos quais foi treinado. Em vez de se concentrarem em melhorar os algoritmos de ML, a maioria das empresas se concentra em gerenciar e melhorar seus dados. Apesar do sucesso de modelos que utilizam enormes quantidades de dados, muitos são céticos em relação à ênfase nos dados como o caminho a seguir.
+
+## Capítulo 3 
+
+- 
 
 
        
