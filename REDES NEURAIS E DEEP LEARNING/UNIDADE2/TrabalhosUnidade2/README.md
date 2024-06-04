@@ -11,4 +11,4 @@ https://youtu.be/d-_CkRjLap8
 ### Geração de dados sintéticos
 
 As GAN's e as DPGAN's (extensões das gan's) são focadas na geração de dados realistas
-(Exemplo)[https://colab.research.google.com/drive/1kqRI9fUu7RcCCOai5EPu1Ew3TQu4vArz]
+[Exemplo](https://colab.research.google.com/drive/1kqRI9fUu7RcCCOai5EPu1Ew3TQu4vArz)
