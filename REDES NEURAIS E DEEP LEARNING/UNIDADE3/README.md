@@ -54,5 +54,40 @@
  - A Growing Neural Gas oferece uma abordagem flexível e adaptativa para clustering e representação de dados, sendo uma ferramenta poderosa em áreas que exigem análise exploratória de dados complexos e visualização de padrões ocultos em alta dimensionalidade.
 
 
+## redes neurais/deep learning com aprendizagem semi- supervisionada.
+
+- A aprendizagem semissupervisionada é um paradigma de aprendizado de máquina que combina dados rotulados e não rotulados para melhorar o desempenho dos modelos. Esta abordagem é especialmente útil quando os dados rotulados são escassos ou difíceis de obter, mas há disponibilidade de uma quantidade maior de dados não rotulados.
+
+- Visão Geral:  A aprendizagem semissupervisionada visa aproveitar tanto os dados rotulados quanto os não rotulados para criar modelos mais robustos e generalizáveis. Ela se diferencia da aprendizagem supervisionada tradicional, que utiliza apenas dados rotulados, e da aprendizagem não supervisionada, que lida apenas com dados não rotulados.
+
+ - Técnicas Comuns
+   - 1. Propagação de Rótulos (Label Propagation)
+     - Utiliza informações dos dados rotulados para propagar rótulos para dados não rotulados, com base em alguma medida de similaridade ou vizinhança.
+   - 2. Mistura de Componentes (Mixture Models)
+     - Modelos que combinam distribuições de dados rotulados e não rotulados para inferir as classes ou estruturas subjacentes dos dados.
+   - 3. Aprendizagem Semi-Generativa (Semi-Generative Learning)
+     - Combina modelos generativos (para dados não rotulados) e discriminativos (para dados rotulados) para melhorar a capacidade preditiva e a generalização do modelo.
+   - 4. Redes Neurais Semissupervisionadas
+     - Redes neurais que incorporam tanto dados rotulados quanto não rotulados em suas arquiteturas, utilizando técnicas como aprendizado adversarial ou autoencoder semissupervisionado.
+       
+ - Aplicações
+   - Reconhecimento de Imagens e Vídeos: Melhora no reconhecimento de objetos e ações em imagens e vídeos com conjuntos de dados grandes e mistos.
+
+   - Processamento de Linguagem Natural: Aumento da precisão na classificação de documentos e na análise de sentimentos usando grandes volumes de texto não rotulado.
+
+   - Bioinformática: Análise de sequências genéticas e expressão de proteínas com dados limitados de laboratório.
+
+ - Benefícios
+   - Utilização Eficiente dos Recursos: Aproveita dados não rotulados disponíveis, reduzindo a necessidade de rotulação manual cara e demorada.
+
+   - Melhoria da Generalização: Modelos semissupervisionados tendem a generalizar melhor para novos dados devido à inclusão de informações mais abrangentes dos dados não rotulados.
+
+ - Limitações
+   - Dependência de Qualidade dos Dados Não Rotulados: A eficácia da aprendizagem semissupervisionada pode ser limitada pela qualidade e representatividade dos dados não rotulados disponíveis.
+
+   - Complexidade de Implementação: Algoritmos semissupervisionados podem ser mais complexos de implementar e ajustar em comparação com métodos puramente supervisionados ou não supervisionados.
+
+ - Conclusão
+   - A aprendizagem semissupervisionada oferece uma abordagem promissora para lidar com conjuntos de dados grandes e complexos, aproveitando tanto dados rotulados quanto não rotulados para melhorar a precisão e a generalização dos modelos de aprendizado de máquina. Seu uso é crucial em cenários onde a rotulação de dados é custosa ou impraticável, permitindo avanços significativos em diversas aplicações de inteligência artificial e análise de dados.
 
 
