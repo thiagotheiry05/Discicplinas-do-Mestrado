@@ -46,9 +46,9 @@
   - Detecção de Anomalias e Reconhecimento de Padrões: Identificação de outliers e padrões não triviais nos dados.
     
  - Exemplos Práticos
-  - Análise de Dados Biológicos: Aplicação em bioinformática para análise de dados genômicos e de expressão de proteínas.
-  - Processamento de Imagens: Utilização em visão computacional para segmentação e reconhecimento de objetos em imagens.
-  - Inteligência Artificial em Jogos: Implementação em agentes inteligentes para aprendizado e adaptação de estratégias em ambientes dinâmicos.
+   - Análise de Dados Biológicos: Aplicação em bioinformática para análise de dados genômicos e de expressão de proteínas.
+   - Processamento de Imagens: Utilização em visão computacional para segmentação e reconhecimento de objetos em imagens.
+   - Inteligência Artificial em Jogos: Implementação em agentes inteligentes para aprendizado e adaptação de estratégias em ambientes dinâmicos.
     
 - Conclusão
  - A Growing Neural Gas oferece uma abordagem flexível e adaptativa para clustering e representação de dados, sendo uma ferramenta poderosa em áreas que exigem análise exploratória de dados complexos e visualização de padrões ocultos em alta dimensionalidade.
