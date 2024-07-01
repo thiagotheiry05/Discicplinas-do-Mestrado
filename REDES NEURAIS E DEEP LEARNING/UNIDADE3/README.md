@@ -90,4 +90,4 @@
  - Conclusão
    - A aprendizagem semissupervisionada oferece uma abordagem promissora para lidar com conjuntos de dados grandes e complexos, aproveitando tanto dados rotulados quanto não rotulados para melhorar a precisão e a generalização dos modelos de aprendizado de máquina. Seu uso é crucial em cenários onde a rotulação de dados é custosa ou impraticável, permitindo avanços significativos em diversas aplicações de inteligência artificial e análise de dados.
 
-
+- [exemplo](https://github.com/thiagotheiry05/Discicplinas-do-Mestrado/blob/main/REDES%20NEURAIS%20E%20DEEP%20LEARNING/UNIDADE3/ExQuest%C3%A3o6Lista3.ipynb)
